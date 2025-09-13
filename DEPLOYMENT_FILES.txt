@@ -1,0 +1,56 @@
+# Text-to-Voice AI Application - Deployment Files List
+
+## 📁 Files to Upload to Your cPanel Hosting
+
+All files are located in the `out/` directory:
+
+### Required Files (Upload ALL of these):
+
+📄 index.html                    # Main application (46.26 KB)
+📄 404.html                      # Error page (11.54 KB) 
+📄 index.txt                     # Site information (5.09 KB)
+
+### Icon Files:
+📄 file.svg                      # File icon (391 bytes)
+📄 globe.svg                     # Globe icon (1.03 KB)
+📄 next.svg                      # Next.js icon (1.38 KB)
+📄 vercel.svg                    # Vercel icon (128 bytes)  
+📄 window.svg                    # Window icon (385 bytes)
+
+### Asset Directories:
+📁 _next/                        # Contains ALL CSS, JavaScript, and assets
+   📁 static/                    # Static files (CSS, JS, images)
+   📁 chunks/                    # JavaScript chunks
+   └── [various files]           # Framework files and components
+
+📁 404/                          # 404 page directory
+   📄 index.html                 # 404 page content
+
+## 🎯 Quick Upload Instructions:
+
+1. **Login to cPanel** → File Manager
+2. **Navigate to** `/public_html/` (or your subdomain folder)
+3. **Upload all files and folders** listed above
+4. **Maintain the directory structure** (keep _next/ folder intact)
+5. **Set permissions** to 755 for folders, 644 for files (usually automatic)
+
+## 🌐 After Upload:
+
+Visit your domain: `https://yourdomain.com`
+The application will load automatically!
+
+## 📱 What You'll See:
+
+✅ Professional text-to-voice interface
+✅ Multiple AI voice options
+✅ Real-time voice generation
+✅ Audio controls and download options
+✅ Mobile-responsive design
+✅ Dark/light theme toggle
+
+## 💾 Total Size: ~2-5 MB
+Suitable for all hosting plans, including basic shared hosting.
+
+---
+
+Ready to deploy your AI voice generator! 🚀
